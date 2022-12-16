@@ -31,3 +31,10 @@ p{
 body{
     background: gray;
 }
+
+footer{
+    flex-shrink: 0;
+    text-align: center;
+    margin-top: auto;
+    text-size-adjust: 30px;
+}
