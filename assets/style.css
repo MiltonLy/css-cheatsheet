@@ -1,0 +1,12 @@
+*{
+
+}
+/* color Scheme black backgroun and green text and boxes. */
+:root{
+    --title-color: #32a85a;
+}
+
+h1, h2{
+color: var(--title-color);
+}
+
