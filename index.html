@@ -27,14 +27,18 @@
                         </div>
                         <pre class="el-block">
                             <code>
-
+                                .row { 
+                                    display: flex;
+                                    flex-direction: row;
+                                    flex-wrap: wrap;
+                                }
                             </code>
                         </pre>
                     </figure>
                 </div>
             </section>
             
-            <section class="row justify-center">
+            <section class="come esta">
                 <div class="el-colum">
                     <figure class="card-code">
                         <h2 class="el-header">Flexbox Column</h2>
@@ -44,7 +48,10 @@
                         </div>
                         <pre class="el-block">
                             <code>
-
+                                .column{
+                                    display: flex;
+                                    flex-direction: column;
+                                }
                             </code>
                         </pre>
                         </div>
@@ -53,7 +60,7 @@
                 </div>
             </section>
             
-            <section class="row justify-center">
+            <section class="come esta">
                 <div class="el-colum">
                     <figure class="card-code">
                         <h2 class="el-header">CSS Grid Layout</h2>
@@ -61,6 +68,14 @@
                             <h3>Build a 12-column layout using CSS Grid.</h3>
                         </div>
                         <pre class="el-block">
+                            <code>
+                                .grid{
+                                    display: grid;
+                                    width: 100%;
+                                    grid-template-columns:
+                                repeat(12, 1fr);
+                                }
+                            </code>
 
                         </pre>
                     </figure>
@@ -68,7 +83,7 @@
                 </div>
             </section>
             
-            <section class="row justify-center">
+            <section class="come esta">
                 <div class="el-colum">
                     <figure class="card-code">
                         <h2 class="el-header">Linear Gradients</h2>
@@ -76,7 +91,15 @@
                             <h3>This will create a background linear gradiant from top to bottom.</h3>
                         </div>
                         <pre class="el-block">
-
+                            <code>
+                                .liner-gradient-background {
+                                    background-image: liner-
+                                grandient(
+                                    rgba(232, 102, 236, 0.3) 0%,
+                                    egba(232, 102, 236, 0.6) 100%,
+                                    );
+                                }
+                            </code>
                         </pre>
                     </figure>
                     
@@ -84,7 +107,7 @@
                 </div>
             </section>
             
-            <section class="row justify-center">
+            <section class="come esta">
                 <div class="el-colum">
                     <figure class="card-code">
                         <h2 class="el-header">Box Transition Glow</h2>
@@ -92,14 +115,26 @@
                             <h3>Use transition and box shadows to glow on hover.</h3>
                         </div>
                         <pre class="el-block">
+                            <code>
+                                .code-card .card-header {
+                                    border-radius: 8px;
+                                    transition: all 0.5s ease-in-out;
+                                }
 
+                                .code-card:hover,
+                                .code-card:hover .card-header {
+                                    box-shadow: inset 0px 0px 8px
+                                    rgba (232, 102, 236, 1) 0 0 15px
+                                    rgba(232, 102, 236, 1);
+                                }
+                            </code>
                         </pre>
                
                     </figure>
                 </div>
             </section>
             
-            <section class="row justify-center">
+            <section class="come esta">
                 <div class="el=colum">
                     <figure class="card-code">
                         <h2 class="el-header">Overlay Card with Title</h2>
@@ -107,7 +142,13 @@
                             <h3>Use position properties and negative margins to raise elements higher than their natural starting point.</h3>
                         </div>
                         <pre class="el-block">
-                            
+                            <code>
+                                .card-header {
+                                    position: relative;
+                                    margin-top: -20px;
+                                }
+                            </code>
+
                         </pre>
                     </figure>
                     
