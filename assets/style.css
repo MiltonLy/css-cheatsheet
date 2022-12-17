@@ -25,6 +25,34 @@
     transition: all 0.5s ease-in-out;
 }
 
+.el-card .el-block {
+    flex-grow: 1;
+}
+
+.el-card pre{
+    white-space: pre-wrap;
+    overflow: auto;
+    tab-size: 4;
+    padding: 1.2rem 1rem;
+    color: var(--title-color);
+    border-radius: 8px;
+    background-image: linear-gradient( rgb(22,215,148, 0.3) 0%, rgba(22, 214, 118, 0.8) 100% );
+    display: flex;
+    align-items: center;
+}
+
+.el-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 2rem;
+    color: var(--title-color);
+    outline: 2px dotted var(--title-color);
+    outline-offset: -2px;
+    transition: all 0.5s ease-in-out;
+}
+
 pre {
     display: block;
     font-family: monospace;
@@ -68,6 +96,8 @@ p{
 
 body{
     background: gray;
+    font-size: medium;
+    line-height: 1.5;
 }
 
 footer{
