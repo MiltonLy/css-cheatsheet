@@ -25,6 +25,25 @@
     transition: all 0.5s ease-in-out;
 }
 
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0px;
+}
+
+.esta {
+    justify-content: center;
+}
+
+.como {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+}
+
 h1, h2, h3{
 color: var(--title-color);
 }
