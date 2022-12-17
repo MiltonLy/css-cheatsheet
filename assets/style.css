@@ -12,6 +12,8 @@
     --bg-color: gray;
 }
 
+
+
 .el-colum {
     flex: 1 0 100%;
     padding: 1.5rem;
@@ -42,7 +44,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    min-height: 100%;
+    min-height: 10%;
     padding: 2rem;
     color: var(--title-color);
     outline: 2px dotted var(--title-color);
@@ -64,6 +66,10 @@ main{
     background-image: linear-gradient( rgb(22,215,148, 0.3) 0%, rgba(22, 214, 118, 0.8) 100% );
     display: flex;
     align-items: center;
+}
+
+.snippet{
+    background-color: linear-gradient( rgb(22,215,148, 0.3) 0%, rgba(22, 214, 118, 0.8) 100% ) ;
 }
 
 .el-card{
@@ -101,8 +107,7 @@ pre {
 }
 
 .el-header{
-    
-    position: relative;
+    text-align: center;
     border: dashed 2px;
     border-color: black;
 }
@@ -113,6 +118,7 @@ color: var(--title-color);
 
 h1{
     font-size: xx-large;
+    text-align: center;
 }
 
 h3{
@@ -125,6 +131,7 @@ h3{
 
 p{
     display: block;
+    text-align: center;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -141,4 +148,16 @@ footer{
     text-align: center;
     margin-top: auto;
     text-size-adjust: 30px;
+}
+
+@media screen and (max-width: 992px) {
+    .como-esta{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .como-esta {
+      width: 50%;
+    }
 }
