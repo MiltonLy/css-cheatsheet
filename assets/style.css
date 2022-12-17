@@ -100,17 +100,15 @@ pre {
     justify-content: center;
 }
 
-h1, h2, h3{
-color: var(--title-color);
+.el-header{
+    
+    position: relative;
+    border: dashed 2px;
+    border-color: black;
 }
 
-header{
-    border: whites;
-    text-align: center;
-    margin: auto;
-    display: block;
-    width: 50%;
-    padding: 20px;
+h1, h2, h3{
+color: var(--title-color);
 }
 
 h1{
