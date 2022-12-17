@@ -4,6 +4,7 @@
 /* color Scheme black backgroun and green text and boxes. */
 :root{
     --title-color: #32a85a;
+    --snippet: white;
 }
 
 .el-colum {
@@ -66,11 +67,14 @@
 }
 
 pre {
-    display: block;
-    font-family: monospace;
-    white-space: pre;
-    margin: 1em 0px;
-    color: white;
+    flex: relative;
+    user-select: text;
+    background: linear-gradient(gray,green);
+    color: var(--snippet);
+    text-align: center;
+    align-content: flex-start;
+    text-overflow: clip;
+    line-height: 1;
 }
 
 .como-esta {
