@@ -6,6 +6,25 @@
     --title-color: #32a85a;
 }
 
+.el-colum {
+    flex: 1 0 100%;
+    padding: 1.5rem;
+    transition: flex-basis 500ms linear;
+    margin-bottom: 1.5rem;
+}
+
+.el-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 2rem;
+    color: var(--title-color);
+    outline: 2px dotted var(--title-color);
+    outline-offset: -2px;
+    transition: all 0.5s ease-in-out;
+}
+
 h1, h2, h3{
 color: var(--title-color);
 }
